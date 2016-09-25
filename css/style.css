@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body{
+	background-color: #000000 ;
+	color: white;
+}
+
+.card{
+	background-color: white;
+	color: black;
+	display: inline-block;
+	margin: 10px;
+	/*padding: 10px;*/
+	border-radius:5px;
+	min-width: 200px;
+}
+
+.profile-pic{
+	background-color: grey;
+	height:200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	/* or border-radius:5px 5px 0 0;*/
+	transition: all .3s;
+	overflow: hidden;
+	z-index: 0;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/12391822_986251168103298_6885119717819245603_n.jpg?oh=79c0897b7c49c31d11a2b392907a1d8f&oe=587324FB);
+}
+ 
+.profile-pic:hover{
+	transform: scale(1.1)
+}
+	
+.content{
+	padding: 10px;
+	margin-right:5px;
+}
+
+.social-links{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+h1{
+	text-align: center;
+}
+
+.content{
+	text-align: right;
+}
+
+#layout{
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+
+span{
+	line-height: 0.5px;
+	color:#C0C0C0 ;
+	margin-top: 0px;
+	margin-right:5px;
+}
+
+h6{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-right:5px;
+}
